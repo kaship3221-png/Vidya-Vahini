@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDE7F6">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/bus_icon"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vidya-Vahini"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            android:textColor="#4A148C" />
+
+        <TextView
+            android:id="@+id/loginTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Student Sign In"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#311B92"
+            android:layout_marginTop="25dp" />
+
+        <EditText
+            android:id="@+id/loginEmail"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Enter Email"
+            android:inputType="textEmailAddress"
+            android:padding="14dp"
+            android:layout_marginTop="25dp" />
+
+        <EditText
+            android:id="@+id/loginPassword"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Enter Password"
+            android:inputType="textPassword"
+            android:padding="14dp"
+            android:layout_marginTop="15dp" />
+
+        <CheckBox
+            android:id="@+id/rememberCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Remember Login"
+            android:textColor="#5E35B1"
+            android:layout_marginTop="15dp" />
+
+        <TextView
+            android:id="@+id/forgotPasswordText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forgot Password?"
+            android:textColor="#D32F2F"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:id="@+id/loginBtn"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Sign In"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#5E35B1"
+            android:layout_marginTop="25dp" />
+
+        <TextView
+            android:id="@+id/signupText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New user? Sign Up"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#6A1B9A"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+</ScrollView>

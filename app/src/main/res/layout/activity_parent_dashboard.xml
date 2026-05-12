@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#FFF3E0">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Parent Dashboard"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#E65100"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:id="@+id/parentMessageText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Waiting for safe reach message..."
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#BF360C"
+        android:background="#FFE0B2"
+        android:padding="18dp"
+        android:layout_marginTop="40dp"/>
+
+    <Button
+        android:id="@+id/checkMessageBtn"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Check Safe Reach Message"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#F57C00"
+        android:layout_marginTop="25dp"/>
+
+</LinearLayout>

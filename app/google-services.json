@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "410560584334",
+    "project_id": "vidyavahini-ea922",
+    "storage_bucket": "vidyavahini-ea922.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:410560584334:android:d4c3f4271f2e69ad5287df",
+        "android_client_info": {
+          "package_name": "com.example.vidya_vahini"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaLM7AnPuaanBm5sLGitVgLo7Ts0So8kI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

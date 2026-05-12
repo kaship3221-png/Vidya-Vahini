@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Admin Dashboard"
+            android:textSize="28sp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/routeInput"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Enter Route"/>
+
+        <EditText
+            android:id="@+id/statusInput"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Enter Bus Status"
+            android:layout_marginTop="15dp"/>
+
+        <EditText
+            android:id="@+id/etaInput"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Enter ETA"
+            android:layout_marginTop="15dp"/>
+
+        <EditText
+            android:id="@+id/emergencyInput"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Emergency Message / Breakdown Alert"
+            android:layout_marginTop="15dp"/>
+
+        <EditText
+            android:id="@+id/newBusInput"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="New Bus Number"
+            android:layout_marginTop="15dp"/>
+
+        <EditText
+            android:id="@+id/driverContactInput"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Driver Contact"
+            android:inputType="phone"
+            android:layout_marginTop="15dp"/>
+
+        <EditText
+            android:id="@+id/newEtaInput"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="New ETA"
+            android:layout_marginTop="15dp"/>
+
+        <EditText
+            android:id="@+id/pickupLocationInput"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Pickup Location"
+            android:layout_marginTop="15dp"/>
+
+        <Button
+            android:id="@+id/updateBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update Status"
+            android:layout_marginTop="25dp"/>
+
+        <TextView
+            android:id="@+id/outputText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No Updates"
+            android:textSize="18sp"
+            android:layout_marginTop="25dp"/>
+
+    </LinearLayout>
+</ScrollView>

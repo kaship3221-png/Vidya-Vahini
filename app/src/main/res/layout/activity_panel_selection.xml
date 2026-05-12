@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose Panel"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="40dp"/>
+
+    <Button
+        android:id="@+id/studentBtn"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Student Panel"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#5E35B1"/>
+
+    <Button
+        android:id="@+id/adminBtn"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Admin Panel"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#00897B"/>
+
+    <Button
+        android:id="@+id/parentBtn"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Parent Panel"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#F57C00"
+        android:layout_marginTop="15dp"/>
+</LinearLayout>
