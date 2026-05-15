@@ -99,7 +99,7 @@ Vidya-Vahini/
 
 1️⃣ Clone Repository
 
-git clone https://github.com/your-username/Vidya-Vahini.git
+https://github.com/kaship3221-png/Vidya-Vahini
 
 
 2️⃣ Open in Android Studio
