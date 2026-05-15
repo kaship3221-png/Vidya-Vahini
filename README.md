@@ -2,7 +2,7 @@ Vidya-Vahini 🚍
 
 Smart College Transport Management System
 
- Overview
+ 📌 Overview
 
 Vidya-Vahini is an Android-based smart transport management application developed for colleges and schools.
 The application helps students, parents, and administrators manage transport communication efficiently using real-time updates and Firebase integration.
@@ -16,11 +16,10 @@ Replacement bus details
 Parent safe-reach notifications
 
 
- Features
+ ✨ Features
 
  
- Student Panel
-
+👨‍🎓 Student Panel
  
 View bus route
 Check bus status
@@ -30,7 +29,7 @@ View replacement bus details
 Send safe reach notification to parents
 
 
- Admin Panel
+🧑‍💼 Admin Panel
 
 
 Update route details
@@ -44,13 +43,15 @@ New ETA
 Pickup Location
 
 
- Parent Panel
+👨‍👩‍👧 Parent Panel
 
  
 Receive safe reach confirmation
 View notification time
 Monitor student arrival status
+
 🛠 Technologies Used
+
 Kotlin
 XML
 Android Studio
@@ -60,7 +61,7 @@ Android SDK
 Material Design Components
 
 
- Firebase Features
+🔥 Firebase Features
 
 
 Firebase Authentication
@@ -68,8 +69,9 @@ Cloud Firestore Database
 Real-time Data Updates
 
 
- Project Structure
+📂 Project Structure
 
+~~~
 
 Vidya-Vahini/
 │
@@ -90,7 +92,7 @@ Vidya-Vahini/
 │       ├── activity_admin_dashboard.xml
 │       └── activity_parent_dashboard.xml
 
-
+~~~
 
 ⚙️ Installation
 
@@ -133,7 +135,7 @@ Connect Emulator or Android Device
 Click ▶ Run
 
 
- Application Workflow
+📱 Application Workflow
 
 
 Admin Updates Bus Status
@@ -147,8 +149,7 @@ Students Send Safe Reach Message
 Parents Receive Confirmation
 
 
- Emergency Features
-
+🚨 Emergency Features
 
 Breakdown alerts
 Alternative bus arrangement
@@ -157,18 +158,8 @@ Updated pickup location
 New ETA updates
 
 
- Future Enhancements
 
-
-Live GPS Tracking
-Google Maps Integration
-Push Notifications
-AI-based ETA Prediction
-QR Attendance System
-Driver Authentication
-
-
- Developer
+👨‍💻 Developer
 
 Kashinath
 BE – Computer Science Engineering
